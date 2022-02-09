@@ -2,6 +2,7 @@ char Incoming_value = 'a';
 void setup() {
   // put your setup code here, to run once:
 Serial.begin(9600);
+//Pin 2 and 3 are just a test
 pinMode(3,OUTPUT);
 pinMode(2,OUTPUT);
 }
@@ -15,7 +16,7 @@ void loop() {
       Serial.print("/n");
       if (Incoming_value == 'A'){
         Serial.println("3LOW");
-        digitalWrite(2,HIGH);
+        digitalWrite(2,HIGH); 
         digitalWrite(3,LOW);
       }
       else if(Incoming_value == 'a'){
