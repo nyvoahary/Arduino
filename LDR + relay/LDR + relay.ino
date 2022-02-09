@@ -23,11 +23,11 @@ void loop() {
     // Serial.println("Tokony mirehitra ilay jiro");
     digitalWrite(LAMP1,HIGH);
     digitalWrite(LAMP2,LOW);
-    delay(1000);
+    // delay(1000);
   } else {
     // Serial.println("Tokony ho faty ilay jiro");
     digitalWrite(LAMP1,LOW);
     digitalWrite(LAMP2,HIGH);
-    delay(1000);
+    // delay(1000);
   }
 }
